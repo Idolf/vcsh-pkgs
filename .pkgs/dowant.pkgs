@@ -1,183 +1,154 @@
-## Editors
-emacs:all
+# base stuff
+acpi:amd64
+acpid:amd64
+acpi-support:all
+apt:amd64
+apt-file:all
+autojump:all
+bash-completion:all
+fancontrol:all
+file:amd64
+findutils:amd64
+gnupg2:amd64
+grep:amd64
+less:amd64
+sudo:amd64
+
+# graphical base stuff
+alsa-utils:amd64
+autocutsel:amd64
+libgl1-mesa-dri:amd64
+libglu1-mesa:amd64
+pass:all
+suckless-tools:amd64
+xcompmgr:amd64
+xdm:amd64
+xsel:amd64
+xserver-xorg:amd64
+xserver-xorg-input-synaptics:amd64
+xserver-xorg-video-all:amd64
+
+# network
+bind9-host:amd64
+curl:amd64
+iodine:amd64
+iputils-ping:amd64
+netcat-openbsd:amd64
+nmap:amd64
+notmuch:amd64
+openssh-client:amd64
+openvpn:amd64
+rsync:amd64
+socat:amd64
+ssh-askpass:amd64
+udhcpc:amd64
+wget:amd64
+whois:amd64
+wireless-tools:amd64
+wireshark:amd64
+wpasupplicant:amd64
+
+# editors
+emacs24:amd64
 emacs-goodies-el:all
-nano:amd64
+vim-gtk:amd64
 
-
-## Browser
+# browsers
 chromium:amd64
 iceweasel:amd64
 
-
-## Latex and PDF things
-zathura:amd64
+# PDF
 pdftk:amd64
+zathura:amd64
+
+# misc applications
+feh:amd64
+gnucash:amd64
+graphviz:amd64
+lm-sensors:amd64
+scrot:amd64
+libvte-2.90-9:amd64 # for sakura
+libotr5:amd64 # for pidgin-otr
+libpangoxft-1.0-0 # for rofi
+
+# filesystems / package formats
+bzip2:amd64
+cryptsetup:amd64
+dosfstools:amd64
+dpkg-dev:all
+e2fsprogs:amd64
+gzip:amd64
+sharutils:amd64
+xz-utils:amd64
+
+# VCS
+git:amd64
+myrepos:all
+subversion:amd64
+vcsh:all
+
+# development
+diffutils:amd64
+gdb:amd64
+linux-headers-amd64:amd64
+ltrace:amd64
+manpages-dev:all
+strace:amd64
+time:amd64
+
+# binary stuff
+hexedit:amd64
+minicom:amd64
+nasm:amd64
+vbindiff:amd64
+
+# virtualization
+busybox-static:amd64
+dietlibc-dev:i386
+qemu:amd64
+qemu-user-static:amd64
+virtualbox-dkms:all
+virtualbox-guest-additions-iso:all
+virtualbox-qt:amd64
+
+# python
+ipython:all
+libpython2.7-dev:amd64
+python-pip:all
+
+# CTF tools
+android-tools-adb:amd64
+execstack:amd64
+gcc-arm-none-eabi:amd64
+gdb-multiarch:amd64
+gdbserver:amd64
+g++-multilib:amd64
+libcapstone-dev:amd64
+upx-ucl:amd64
+valgrind:amd64
+
+# haskell / xmonad
+automake:all
+cabal-install:amd64
+ghc:amd64
+xdotool:amd64
+xosd-bin:amd64
+
+# latex
 latex-beamer:all
 texlive-lang-danish:all
 texlive-latex-extra:all
 texlive-math-extra:all
 
-
-## Screen lock (slock)
-suckless-tools:amd64
-
-
-## Password manager
-pass:all
-pinentry-gtk2:amd64
-gnupg-agent:amd64
-gnupg:amd64
-
-
-## IDA needs these to work
-libstdc++6:i386
-libglib2.0-0:i386
-libfreetype6:i386
-libsm6:i386
-libxrender1:i386
+# IDA pro requirements
 libfontconfig1:i386
+libglib2.0-0:i386
+libsm6:i386
 libxext6:i386
+libxrender1:i386
 
+# GCC hardening
+hardening-wrapper:amd64
+hardening-includes:all
 
-## Networking
-udhcpc:amd64
-traceroute:amd64
-pv:amd64
-netcat-openbsd:amd64
-ssh:all
-nmap:amd64
-iputils-ping:amd64
-wget:amd64
-curl:amd64
-socat:amd64
-rsync:amd64
-whois:amd64
-openvpn:amd64
-
-
-## Xorg and other UI things
-xdm:amd64
-feh:amd64
-dmz-cursor-theme:all
-xcompmgr:amd64
-fonts-liberation:all
-gtk2-engines-murrine:amd64
-xclip:amd64
-xdotool:amd64
-tango-icon-theme:all
-autocutsel:amd64
-xorg:amd64
-xosd-bin:amd64
-
-
-## VCS
-git:amd64
-subversion:amd64
-vcsh:all
-
-
-## Libs (dev versions)
-# Needed to compile xmonad-contrib
-libxinerama-dev:amd64
-libxrandr-dev:amd64
-
-libpython2.7-dev:amd64
-
-
-## Libs
-libreadline6:i386
-g++-multilib:amd64
-
-# Needed by pwnlib
-libcapstone2:amd64
-
-
-## Virtualization
-virtualbox:amd64
-virtualbox-dkms:all
-virtualbox-qt:amd64
-
-
-## FS and package formats things
-dtrx:all
-zip:amd64
-lzma:amd64
-gzip:amd64
-cryptsetup:amd64
-dosfstools:amd64
-e2fsprogs:amd64
-
-
-## CLI utilities
-sudo:amd64
-psmisc:amd64
-pngcheck:amd64
-rlwrap:amd64
-file:amd64
-time:amd64
-grep:amd64
-less:amd64
-apt-file:all
-locate:amd64
-sed:amd64
-diffutils:amd64
-
-
-## Shell
-autojump:all
-bash-completion:all
-
-
-## Docs
-manpages:all
-manpages-dev:all
-manpages-posix:all
-
-
-## Media
-mplayer2:amd64
-alsa-utils:amd64
-
-
-### Programming and debugging
-## Python
-python-pip:all
-ipython:all
-
-## C
-gcc:amd64
-
-## Haskell
-ghc:amd64
-cabal-install:amd64
-
-## Debugging and utils
-strace:amd64
-ltrace:amd64
-gdb:amd64
-gdbserver:amd64
-execstack:amd64
-build-essential:amd64
-
-
-## Misc
-coreutils:amd64
-pm-utils:all
-unison:amd64
-debootstrap:all
-hexedit:amd64
-wamerican:all
-usbutils:amd64
-
-
-# ALL BELOW THIS LINE ADDED BY `check-pkgs`
-smlnj:amd64
-libcapstone-dev:amd64
-cloc:all
-pandoc:amd64
-lmodern:all
-imagemagick:amd64
-fonts-ebgaramond:all
-iamerican:all
-ibritish:all
-moreutils:amd64
+# Automatically added
