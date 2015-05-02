@@ -12,6 +12,7 @@ iamerican:all
 init:amd64
 iputils-ping:amd64
 irqbalance:amd64
+libc-bin:amd64
 linux-image-*
 locales:all
 login:amd64

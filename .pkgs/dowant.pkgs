@@ -1,7 +1,7 @@
 # base stuff
 acpi:amd64
 acpid:amd64
-acpi-support:all
+acpi-support:amd64
 apt:amd64
 apt-file:all
 autojump:all
@@ -54,8 +54,8 @@ emacs-goodies-el:all
 vim-gtk:amd64
 
 # browsers
-chromium:amd64
-iceweasel:amd64
+chromium-browser:amd64
+firefox:amd64
 
 # PDF
 pdftk:amd64
@@ -70,6 +70,7 @@ scrot:amd64
 libvte-2.90-9:amd64 # for sakura
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0 # for rofi
+python-yaml:amd64 # for my net script
 
 # filesystems / package formats
 bzip2:amd64
@@ -90,7 +91,7 @@ vcsh:all
 # development
 diffutils:amd64
 gdb:amd64
-linux-headers-amd64:amd64
+linux-headers-generic:amd64
 ltrace:amd64
 manpages-dev:all
 strace:amd64
@@ -133,6 +134,10 @@ cabal-install:amd64
 ghc:amd64
 xdotool:amd64
 xosd-bin:amd64
+libpcre3-dev:amd64
+libxrandr-dev:amd64
+libxft-dev:amd64
+libxinerama-dev:amd64
 
 # latex
 latex-beamer:all
@@ -146,9 +151,5 @@ libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
-
-# GCC hardening
-hardening-wrapper:amd64
-hardening-includes:all
 
 # Automatically added

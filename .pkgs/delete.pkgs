@@ -1,6 +1,7 @@
 anacron:amd64
 cron:amd64
 dbus:amd64
+dbus:i386
 debconf-i18n:all
 discover:amd64
 installation-report:all
