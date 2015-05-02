@@ -80,6 +80,7 @@ dpkg-dev:all
 e2fsprogs:amd64
 gzip:amd64
 sharutils:amd64
+unzip:amd64
 xz-utils:amd64
 
 # VCS
