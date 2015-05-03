@@ -1,9 +1,9 @@
 # base stuff
+acpi-support:amd64
 acpi:amd64
 acpid:amd64
-acpi-support:amd64
-apt:amd64
 apt-file:all
+apt:amd64
 autojump:all
 bash-completion:all
 fancontrol:all
@@ -12,6 +12,7 @@ findutils:amd64
 gnupg2:amd64
 grep:amd64
 less:amd64
+pm-utils:all
 sudo:amd64
 
 # graphical base stuff
@@ -80,6 +81,7 @@ dpkg-dev:all
 e2fsprogs:amd64
 gzip:amd64
 sharutils:amd64
+unrar:amd64
 unzip:amd64
 xz-utils:amd64
 
