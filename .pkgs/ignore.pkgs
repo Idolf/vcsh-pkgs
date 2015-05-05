@@ -4,7 +4,6 @@ chromium-inspector:all
 console-setup:all
 firmware-iwlwifi:all
 firmware-linux-free
-fonts-*
 grub-pc:amd64
 hostname:amd64
 hunspell-en-us:all
@@ -13,14 +12,10 @@ init:amd64
 iputils-ping:amd64
 irqbalance:amd64
 libc-bin:amd64
-linux-image-*
 locales:all
 login:amd64
-lvm2:amd64
 man-db:amd64
 ncurses-base:all
 ncurses-bin:amd64
 ncurses-term:all
 net-tools:amd64
-ttf-*
-xfonts-*

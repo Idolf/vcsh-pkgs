@@ -6,12 +6,12 @@ apt-file:all
 apt:amd64
 autojump:all
 bash-completion:all
-fancontrol:all
 file:amd64
 findutils:amd64
 gnupg2:amd64
 grep:amd64
 less:amd64
+linux-generic:amd64
 pm-utils:all
 sudo:amd64
 
@@ -22,18 +22,23 @@ libgl1-mesa-dri:amd64
 libglu1-mesa:amd64
 pass:all
 suckless-tools:amd64
+unifont
 xcompmgr:amd64
 xdm:amd64
 xsel:amd64
-xserver-xorg:amd64
 xserver-xorg-input-synaptics:amd64
-xserver-xorg-video-all:amd64
+xserver-xorg-video-fbdev:amd64
+xserver-xorg-video-intel:amd64
+xserver-xorg-video-vesa:amd64
+xserver-xorg:amd64
 
 # network
 bind9-host:amd64
 curl:amd64
+dnsutils:amd64
 iodine:amd64
 iputils-ping:amd64
+netbase:all
 netcat-openbsd:amd64
 nmap:amd64
 notmuch:amd64
@@ -66,12 +71,13 @@ zathura:amd64
 feh:amd64
 gnucash:amd64
 graphviz:amd64
-lm-sensors:amd64
-scrot:amd64
-libvte-2.90-9:amd64 # for sakura
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0 # for rofi
+libvte-2.90-9:amd64 # for sakura
+lm-sensors:amd64
+pinentry-gtk2:amd64
 python-yaml:amd64 # for my net script
+scrot:amd64
 
 # filesystems / package formats
 bzip2:amd64
@@ -87,14 +93,12 @@ xz-utils:amd64
 
 # VCS
 git:amd64
-myrepos:all
 subversion:amd64
 vcsh:all
 
 # development
 diffutils:amd64
 gdb:amd64
-linux-headers-generic:amd64
 ltrace:amd64
 manpages-dev:all
 strace:amd64
