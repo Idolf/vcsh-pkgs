@@ -19,18 +19,20 @@ sudo:amd64
 alsa-utils:amd64
 autocutsel:amd64
 libgl1-mesa-dri:amd64
-libglu1-mesa:amd64
+libglu1-mesa:amd64 # a lot of games
+libglu1-mesa:i386  # a lot of games
+libxcursor1:i386 # a lot of games
 pass:all
 suckless-tools:amd64
 unifont
 xcompmgr:amd64
 xdm:amd64
 xsel:amd64
+xserver-xorg:amd64
 xserver-xorg-input-synaptics:amd64
 xserver-xorg-video-fbdev:amd64
 xserver-xorg-video-intel:amd64
 xserver-xorg-video-vesa:amd64
-xserver-xorg:amd64
 
 # network
 bind9-host:amd64
@@ -151,6 +153,7 @@ latex-beamer:all
 texlive-lang-danish:all
 texlive-latex-extra:all
 texlive-math-extra:all
+latexmk:all
 
 # IDA pro requirements
 libfontconfig1:i386
