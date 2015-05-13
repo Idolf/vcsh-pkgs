@@ -150,10 +150,11 @@ libxinerama-dev:amd64
 
 # latex
 latex-beamer:all
+latexmk:all
+lmodern:all
 texlive-lang-danish:all
 texlive-latex-extra:all
 texlive-math-extra:all
-latexmk:all
 
 # IDA pro requirements
 libfontconfig1:i386
