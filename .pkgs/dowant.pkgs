@@ -49,6 +49,7 @@ openvpn:amd64
 rsync:amd64
 socat:amd64
 ssh-askpass:amd64
+tor:amd64
 udhcpc:amd64
 wget:amd64
 whois:amd64
@@ -77,6 +78,7 @@ libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0 # for rofi
 libvte-2.90-9:amd64 # for sakura
 lm-sensors:amd64
+mplayer2:amd64
 pinentry-gtk2:amd64
 python-yaml:amd64 # for my net script
 scrot:amd64
@@ -125,6 +127,8 @@ virtualbox-qt:amd64
 ipython:all
 libpython2.7-dev:amd64
 python-pip:all
+python-pil:amd64
+python-gmpy:amd64
 
 # CTF tools
 android-tools-adb:amd64
