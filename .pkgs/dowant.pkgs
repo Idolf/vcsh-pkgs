@@ -64,7 +64,6 @@ vim-gtk:amd64
 
 # browsers
 chromium-browser:amd64
-firefox:amd64
 
 # PDF
 pdftk:amd64
