@@ -58,7 +58,7 @@ wireshark:amd64
 wpasupplicant:amd64
 
 # editors
-emacs24:amd64
+emacs:all
 emacs-goodies-el:all
 vim-gtk:amd64
 
