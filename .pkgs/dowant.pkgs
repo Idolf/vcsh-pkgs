@@ -25,14 +25,15 @@ libxcursor1:i386 # a lot of games
 pass:all
 suckless-tools:amd64
 unifont
+xauth:amd64
 xcompmgr:amd64
 xdm:amd64
 xsel:amd64
-xserver-xorg:amd64
 xserver-xorg-input-synaptics:amd64
 xserver-xorg-video-fbdev:amd64
 xserver-xorg-video-intel:amd64
 xserver-xorg-video-vesa:amd64
+xserver-xorg:amd64
 
 # network
 bind9-host:amd64
@@ -76,7 +77,6 @@ libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0 # for rofi
 libvte-2.90-9:amd64 # for sakura
 lm-sensors:amd64
-mplayer2:amd64
 pinentry-gtk2:amd64
 python-yaml:amd64 # for my net script
 scrot:amd64
@@ -100,6 +100,7 @@ vcsh:all
 
 # development
 diffutils:amd64
+docker.io:amd64
 gdb:amd64
 ltrace:amd64
 manpages-dev:all
@@ -115,11 +116,8 @@ vbindiff:amd64
 # virtualization
 busybox-static:amd64
 dietlibc-dev:i386
-qemu:amd64
 qemu-user-static:amd64
-virtualbox-dkms:all
 virtualbox-guest-additions-iso:all
-virtualbox-qt:amd64
 
 # python
 ipython:all
