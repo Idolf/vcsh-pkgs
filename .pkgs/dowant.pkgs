@@ -118,7 +118,6 @@ vbindiff:amd64
 busybox-static:amd64
 dietlibc-dev:i386
 qemu-user-static:amd64
-virtualbox-guest-additions-iso:all
 
 # python
 ipython:all
