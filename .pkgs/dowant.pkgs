@@ -99,6 +99,7 @@ subversion:amd64
 vcsh:all
 
 # development
+apparmor:amd64 # required for docker
 diffutils:amd64
 docker.io:amd64
 gdb:amd64
@@ -152,6 +153,7 @@ libxinerama-dev:amd64
 latex-beamer:all
 latexmk:all
 lmodern:all
+texlive-generic-recommended:all
 texlive-lang-danish:all
 texlive-latex-extra:all
 texlive-math-extra:all
