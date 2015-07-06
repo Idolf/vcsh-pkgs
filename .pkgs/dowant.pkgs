@@ -58,8 +58,9 @@ wireshark:amd64
 wpasupplicant:amd64
 
 # editors
-emacs:all
+aspell-da:all
 emacs-goodies-el:all
+emacs:all
 vim-gtk:amd64
 
 # browsers
@@ -117,7 +118,6 @@ vbindiff:amd64
 # virtualization
 busybox-static:amd64
 dietlibc-dev:i386
-qemu-user-static:amd64
 
 # python
 ipython:all
@@ -163,5 +163,10 @@ libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
+
+# games
+libopenal1:i386 # risk of rain
+libxrandr2:i386 # risk of rain
+libasound2:i386 # risk of rain
 
 # Automatically added
