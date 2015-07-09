@@ -7,4 +7,5 @@ discover:amd64
 installation-report:all
 logrotate:amd64
 netcat-traditional:amd64
+pinentry-curses
 python-dbus:amd64

@@ -1,13 +1,11 @@
 # base stuff
 acpi-support:amd64
 acpi:amd64
-acpid:amd64
 apt-file:all
 apt:amd64
 autojump:all
 bash-completion:all
 file:amd64
-findutils:amd64
 gnupg2:amd64
 grep:amd64
 less:amd64
@@ -36,7 +34,6 @@ xserver-xorg-video-vesa:amd64
 xserver-xorg:amd64
 
 # network
-bind9-host:amd64
 curl:amd64
 dnsutils:amd64
 iodine:amd64
@@ -59,6 +56,7 @@ wpasupplicant:amd64
 
 # editors
 aspell-da:all
+aspell-en:all
 emacs-goodies-el:all
 emacs:all
 vim-gtk:amd64
@@ -78,7 +76,6 @@ libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0 # for rofi
 libvte-2.90-9:amd64 # for sakura
 lm-sensors:amd64
-pinentry-gtk2:amd64
 python-yaml:amd64 # for my net script
 scrot:amd64
 
@@ -86,7 +83,6 @@ scrot:amd64
 bzip2:amd64
 cryptsetup:amd64
 dosfstools:amd64
-dpkg-dev:all
 e2fsprogs:amd64
 gzip:amd64
 sharutils:amd64
@@ -163,10 +159,5 @@ libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
-
-# games
-libopenal1:i386 # risk of rain
-libxrandr2:i386 # risk of rain
-libasound2:i386 # risk of rain
 
 # Automatically added
