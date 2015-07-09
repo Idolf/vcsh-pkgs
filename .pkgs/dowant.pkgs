@@ -92,6 +92,7 @@ xz-utils:amd64
 
 # VCS
 git:amd64
+myrepos:all
 subversion:amd64
 vcsh:all
 
