@@ -36,7 +36,6 @@ xserver-xorg:amd64
 # network
 curl:amd64
 dnsutils:amd64
-iodine:amd64
 iputils-ping:amd64
 netbase:all
 netcat-openbsd:amd64

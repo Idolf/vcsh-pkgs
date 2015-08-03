@@ -9,7 +9,6 @@ hunspell-en-us:all
 iamerican:all
 init:amd64
 iputils-ping:amd64
-irqbalance:amd64
 libc-bin:amd64
 locales:all
 login:amd64
