@@ -1,12 +1,6 @@
 aspell-en:all
-chromium-inspector:all
-console-setup:all
-firmware-iwlwifi:all
-firmware-linux-free
 grub-pc:amd64
 hostname:amd64
-hunspell-en-us:all
-iamerican:all
 init:amd64
 iputils-ping:amd64
 libc-bin:amd64
@@ -15,5 +9,4 @@ login:amd64
 man-db:amd64
 ncurses-base:all
 ncurses-bin:amd64
-ncurses-term:all
 net-tools:amd64
