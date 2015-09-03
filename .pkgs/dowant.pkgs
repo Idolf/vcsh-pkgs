@@ -121,6 +121,7 @@ libpython2.7-dev:amd64
 python-pip:all
 python-pil:amd64
 python-gmpy:amd64
+python-numpy:amd64
 
 # CTF tools
 android-tools-adb:amd64
@@ -135,19 +136,20 @@ valgrind:amd64
 
 # haskell / xmonad
 automake:all
-cabal-install:amd64
-ghc:amd64
-xdotool:amd64
-xosd-bin:amd64
 libpcre3-dev:amd64
-libxrandr-dev:amd64
 libxft-dev:amd64
 libxinerama-dev:amd64
+libxrandr-dev:amd64
+stack:amd64
+xdotool:amd64
+xosd-bin:amd64
 
 # latex
 latex-beamer:all
 latexmk:all
 lmodern:all
+mathpartir:all
+texlive-fonts-extra:all
 texlive-generic-recommended:all
 texlive-lang-danish:all
 texlive-latex-extra:all
