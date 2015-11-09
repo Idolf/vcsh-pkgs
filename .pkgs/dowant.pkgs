@@ -22,17 +22,18 @@ libglu1-mesa:amd64 # a lot of games
 libglu1-mesa:i386  # a lot of games
 libxcursor1:i386 # a lot of games
 pass:all
+pinentry-gtk2:amd64
 suckless-tools:amd64
 unifont:all
 xauth:amd64
 xcompmgr:amd64
 xdm:amd64
 xsel:amd64
+xserver-xorg:amd64
 xserver-xorg-input-synaptics:amd64
 xserver-xorg-video-fbdev:amd64
 xserver-xorg-video-intel:amd64
 xserver-xorg-video-vesa:amd64
-xserver-xorg:amd64
 
 # network
 bridge-utils:amd64
@@ -77,7 +78,7 @@ graphviz:amd64
 imagemagick:amd64
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
-libvte-2.90-9:amd64 # for sakura
+libvte-2.91-0:amd64 # for sakura
 lm-sensors:amd64
 mplayer2:amd64
 python-yaml:amd64 # for my net script
@@ -151,14 +152,14 @@ xdotool:amd64
 xosd-bin:amd64
 
 # latex
-latex-beamer:all
 latexmk:all
 lmodern:all
 mathpartir:all
 texlive-fonts-extra:all
 texlive-generic-recommended:all
-texlive-lang-danish:all
+texlive-lang-european:all
 texlive-latex-extra:all
+texlive-latex-recommended:all
 texlive-math-extra:all
 
 # IDA pro requirements

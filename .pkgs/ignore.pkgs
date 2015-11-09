@@ -1,4 +1,5 @@
 aspell-en:all
+findutils:amd64
 grub-pc:amd64
 hostname:amd64
 init:amd64
