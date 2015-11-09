@@ -1,13 +1,14 @@
 # base stuff
-acpi-support:amd64
 acpi:amd64
-apt-file:all
+acpi-support:amd64
 apt:amd64
+apt-file:all
 autojump:all
 bash-completion:all
 file:amd64
 gnupg2:amd64
 grep:amd64
+intel-microcode:amd64
 less:amd64
 linux-generic:amd64
 pm-utils:all
@@ -34,8 +35,10 @@ xserver-xorg-video-vesa:amd64
 xserver-xorg:amd64
 
 # network
+bridge-utils:amd64
 curl:amd64
 dnsutils:amd64
+ebtables:amd64
 iputils-ping:amd64
 netbase:all
 netcat-openbsd:amd64
@@ -71,10 +74,12 @@ zathura:amd64
 feh:amd64
 gnucash:amd64
 graphviz:amd64
+imagemagick:amd64
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
 libvte-2.90-9:amd64 # for sakura
 lm-sensors:amd64
+mplayer2:amd64
 python-yaml:amd64 # for my net script
 scrot:amd64
 
