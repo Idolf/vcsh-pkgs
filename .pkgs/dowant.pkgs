@@ -40,6 +40,7 @@ bridge-utils:amd64
 curl:amd64
 dnsutils:amd64
 ebtables:amd64
+ethtool:amd64
 iputils-ping:amd64
 netbase:all
 netcat-openbsd:amd64
@@ -125,6 +126,7 @@ dietlibc-dev:i386
 ipython:all
 libpython2.7-dev:amd64
 python-capstone:amd64
+python-crypto:amd64
 python-gmpy:amd64
 python-numpy:amd64
 python-pil:amd64
