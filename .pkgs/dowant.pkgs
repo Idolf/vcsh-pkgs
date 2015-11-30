@@ -125,6 +125,7 @@ dietlibc-dev:i386
 # python
 ipython:all
 libpython2.7-dev:amd64
+python-axolotl-curve25519:amd64
 python-capstone:amd64
 python-crypto:amd64
 python-gmpy:amd64
@@ -161,7 +162,6 @@ texlive-fonts-extra:all
 texlive-generic-recommended:all
 texlive-lang-european:all
 texlive-latex-extra:all
-texlive-latex-recommended:all
 texlive-math-extra:all
 
 # IDA pro requirements
