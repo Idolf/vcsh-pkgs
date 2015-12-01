@@ -163,6 +163,7 @@ texlive-generic-recommended:all
 texlive-lang-european:all
 texlive-latex-extra:all
 texlive-math-extra:all
+tipa:all
 
 # IDA pro requirements
 libfontconfig1:i386
