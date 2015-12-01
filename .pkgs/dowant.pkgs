@@ -79,6 +79,7 @@ graphviz:amd64
 imagemagick:amd64
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
+libstartup-notification0:amd64 # for rofi
 libvte-2.91-0:amd64 # for sakura
 lm-sensors:amd64
 mplayer2:amd64
