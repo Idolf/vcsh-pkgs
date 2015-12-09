@@ -108,6 +108,7 @@ apparmor:amd64 # required for docker
 diffutils:amd64
 docker.io:amd64
 gdb:amd64
+libsodium-dev:amd64
 ltrace:amd64
 manpages-dev:all
 strace:amd64
