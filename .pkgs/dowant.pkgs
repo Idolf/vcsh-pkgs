@@ -11,6 +11,7 @@ grep:amd64
 intel-microcode:amd64
 less:amd64
 linux-generic:amd64
+ntpdate:amd64
 pm-utils:all
 sudo:amd64
 
