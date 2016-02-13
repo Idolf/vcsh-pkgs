@@ -78,6 +78,7 @@ feh:amd64
 gnucash:amd64
 graphviz:amd64
 imagemagick:amd64
+keybase:amd64
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
 libstartup-notification0:amd64 # for rofi
