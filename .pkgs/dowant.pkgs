@@ -165,6 +165,7 @@ mathpartir:all
 texlive-fonts-extra:all
 texlive-generic-recommended:all
 texlive-lang-european:all
+texlive-lang-greek:all
 texlive-latex-extra:all
 texlive-math-extra:all
 tipa:all
