@@ -6,6 +6,7 @@ apt-file:all
 autojump:all
 bash-completion:all
 file:amd64
+fuse:amd64
 gnupg2:amd64
 grep:amd64
 intel-microcode:amd64
@@ -13,6 +14,7 @@ less:amd64
 linux-generic:amd64
 ntpdate:amd64
 pm-utils:all
+psmisc:amd64
 sudo:amd64
 
 # graphical base stuff
