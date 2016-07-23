@@ -180,3 +180,6 @@ libxext6:i386
 libxrender1:i386
 
 # Automatically added
+libsqlite3-dev:amd64
+binutils-dev:amd64
+libiberty-dev:amd64
