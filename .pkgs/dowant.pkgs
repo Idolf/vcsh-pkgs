@@ -54,6 +54,7 @@ openvpn:amd64
 rsync:amd64
 socat:amd64
 ssh-askpass:amd64
+tor:amd64
 udhcpc:amd64
 wget:amd64
 whois:amd64
@@ -142,7 +143,6 @@ python-pip:all
 # CTF tools
 android-tools-adb:amd64
 execstack:amd64
-gcc-arm-none-eabi:amd64
 gdb-multiarch:amd64
 gdbserver:amd64
 g++-multilib:amd64
@@ -180,6 +180,3 @@ libxext6:i386
 libxrender1:i386
 
 # Automatically added
-libsqlite3-dev:amd64
-binutils-dev:amd64
-libiberty-dev:amd64
