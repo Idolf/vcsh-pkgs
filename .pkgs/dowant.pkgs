@@ -118,6 +118,9 @@ ltrace:amd64
 manpages-dev:all
 strace:amd64
 time:amd64
+gcc-arm-embedded:amd64
+libssl-dev:amd64
+musl:amd64
 
 # binary stuff
 hexedit:amd64
@@ -130,12 +133,14 @@ busybox-static:amd64
 dietlibc-dev:i386
 
 # python
-gcc-arm-embedded:amd64
 ipython:all
 libpython2.7-dev:amd64
+libpython2.7-dev:i386
+python3.5-dev:amd64
 python-axolotl-curve25519:amd64
 python-capstone:amd64
 python-crypto:amd64
+python-dbg:amd64
 python-gmpy:amd64
 python-numpy:amd64
 python-pil:amd64
