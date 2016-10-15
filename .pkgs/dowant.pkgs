@@ -54,7 +54,6 @@ openvpn:amd64
 rsync:amd64
 socat:amd64
 ssh-askpass:amd64
-tor:amd64
 udhcpc:amd64
 wget:amd64
 whois:amd64
