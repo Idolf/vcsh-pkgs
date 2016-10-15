@@ -1,4 +1,5 @@
 aspell-en:all
+base-passwd:amd64
 findutils:amd64
 grub-pc:amd64
 hostname:amd64
@@ -11,3 +12,4 @@ man-db:amd64
 ncurses-base:all
 ncurses-bin:amd64
 net-tools:amd64
+sysvinit-utils:amd64

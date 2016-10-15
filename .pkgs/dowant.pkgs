@@ -7,7 +7,7 @@ autojump:all
 bash-completion:all
 file:amd64
 fuse:amd64
-gnupg2:amd64
+gnupg:amd64
 grep:amd64
 intel-microcode:amd64
 less:amd64
@@ -87,7 +87,7 @@ libpangoxft-1.0-0:amd64 # for rofi
 libstartup-notification0:amd64 # for rofi
 libvte-2.91-0:amd64 # for sakura
 lm-sensors:amd64
-mplayer2:amd64
+mplayer:amd64
 python-yaml:amd64 # for my net script
 scrot:amd64
 
@@ -118,7 +118,6 @@ ltrace:amd64
 manpages-dev:all
 strace:amd64
 time:amd64
-gcc-arm-embedded:amd64
 libssl-dev:amd64
 musl:amd64
 
