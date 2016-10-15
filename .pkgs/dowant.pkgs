@@ -84,7 +84,10 @@ keybase:amd64
 libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
 libstartup-notification0:amd64 # for rofi
+libu2f-host0:amd64 # for yubikey
 libvte-2.91-0:amd64 # for sakura
+libxcb-ewmh2:amd64 # for rofi
+libxcb-xrm0:amd64 # for rofi
 lm-sensors:amd64
 mplayer:amd64
 python-yaml:amd64 # for my net script
