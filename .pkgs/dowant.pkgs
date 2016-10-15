@@ -33,7 +33,7 @@ xcompmgr:amd64
 xdm:amd64
 xsel:amd64
 xserver-xorg:amd64
-xserver-xorg-input-synaptics:amd64
+xserver-xorg-input-all:amd64
 xserver-xorg-video-fbdev:amd64
 xserver-xorg-video-intel:amd64
 xserver-xorg-video-vesa:amd64
