@@ -130,6 +130,7 @@ busybox-static:amd64
 dietlibc-dev:i386
 
 # python
+gcc-arm-embedded:amd64
 ipython:all
 libpython2.7-dev:amd64
 python-axolotl-curve25519:amd64
