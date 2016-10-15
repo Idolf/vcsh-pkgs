@@ -113,12 +113,13 @@ diffutils:amd64
 docker.io:amd64
 gdb:amd64
 libsodium-dev:amd64
+libssl-dev:amd64
 ltrace:amd64
 manpages-dev:all
+musl:amd64
+pandoc:amd64
 strace:amd64
 time:amd64
-libssl-dev:amd64
-musl:amd64
 
 # binary stuff
 hexedit:amd64
