@@ -150,11 +150,13 @@ python-pip:all
 
 # CTF tools
 android-tools-adb:amd64
+dietlibc-dev:amd64
 execstack:amd64
 gdb-multiarch:amd64
 gdbserver:amd64
 g++-multilib:amd64
 libcapstone-dev:amd64
+musl-tools:amd64
 upx-ucl:amd64
 valgrind:amd64
 
