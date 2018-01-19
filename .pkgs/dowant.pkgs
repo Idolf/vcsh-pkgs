@@ -78,7 +78,6 @@ feh:amd64
 graphviz:amd64
 imagemagick:amd64
 keybase:amd64
-libotr5:amd64 # for pidgin-otr
 libpangoxft-1.0-0:amd64 # for rofi
 libstartup-notification0:amd64 # for rofi
 libu2f-host0:amd64 # for yubikey
@@ -110,7 +109,7 @@ vcsh:all
 # development
 apparmor:amd64 # required for docker
 diffutils:amd64
-docker.io:amd64
+docker-ce:amd64
 gdb:amd64
 libsodium-dev:amd64
 libssl-dev:amd64
@@ -185,5 +184,42 @@ libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
+
+#tlp:all
+#sagemath-upstream-binary:amd64
+#python-setuptools:all
+#python-bs4:all
+#drive:amd64
+#transmission-gtk:amd64
+#pv:amd64
+#apt-transport-https:amd64
+#google-cloud-sdk:all
+#kubectl:amd64
+#wireguard-dkms:all
+#wireguard-tools:amd64
+#gcal:amd64
+#arachne-pnr:amd64
+#binfmt-support:amd64
+#cmake:amd64
+#colordiff:all
+#debootstrap:all
+#default-jre:amd64
+#dropbear-bin:amd64
+#fsharp:all
+#higan:amd64
+#jq:amd64
+#kpartx:amd64
+#libncurses5-dev:amd64
+#libpq-dev:amd64
+#mednafen:amd64
+#moreutils:amd64
+#python-cbor:amd64
+#qemu-user-static:amd64
+#qemu:amd64
+#software-properties-common:all
+#u-boot-tools:amd64
+#uuid-runtime:amd64
+#visualboyadvance-gtk:amd64
+#wine-stable:all
 
 # Automatically added

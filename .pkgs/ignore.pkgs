@@ -13,3 +13,4 @@ ncurses-base:all
 ncurses-bin:amd64
 net-tools:amd64
 sysvinit-utils:amd64
+xmacro:amd64
