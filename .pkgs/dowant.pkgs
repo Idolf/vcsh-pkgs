@@ -1,8 +1,10 @@
 # base stuff
 acpi:amd64
-acpi-support:amd64
+acpi-support:all
 apt:amd64
 apt-file:all
+apt-transport-https:amd64
+apt-utils:amd64
 autojump:all
 bash-completion:all
 file:amd64
@@ -11,7 +13,8 @@ gnupg:amd64
 grep:amd64
 intel-microcode:amd64
 less:amd64
-linux-generic:amd64
+linux-headers-amd64:amd64
+linux-image-amd64:amd64
 ntpdate:amd64
 pm-utils:all
 psmisc:amd64
@@ -43,7 +46,9 @@ bridge-utils:amd64
 curl:amd64
 dnsutils:amd64
 ethtool:amd64
+firmware-iwlwifi:all
 iputils-ping:amd64
+iw:amd64
 netbase:all
 netcat-openbsd:amd64
 nmap:amd64
@@ -55,6 +60,7 @@ ssh-askpass:amd64
 udhcpc:amd64
 wget:amd64
 whois:amd64
+wireguard:all
 wireless-tools:amd64
 wireshark:amd64
 wpasupplicant:amd64
@@ -67,7 +73,7 @@ emacs:all
 vim-gtk:amd64
 
 # browsers
-chromium-browser:amd64
+chromium:amd64
 
 # PDF
 pdftk:amd64
@@ -145,7 +151,7 @@ python-pil:amd64
 python-pip:all
 
 # CTF tools
-android-tools-adb:amd64
+android-tools-adb:all
 dietlibc-dev:amd64
 execstack:amd64
 gdb-multiarch:amd64
@@ -158,11 +164,11 @@ valgrind:amd64
 
 # haskell / xmonad
 automake:all
+haskell-stack:amd64
 libpcre3-dev:amd64
 libxft-dev:amd64
 libxinerama-dev:amd64
 libxrandr-dev:amd64
-stack:amd64
 xdotool:amd64
 xosd-bin:amd64
 
@@ -175,7 +181,7 @@ texlive-generic-recommended:all
 texlive-lang-european:all
 texlive-lang-greek:all
 texlive-latex-extra:all
-texlive-math-extra:all
+#texlive-math-extra:all
 tipa:all
 
 # IDA pro requirements
@@ -192,11 +198,8 @@ libxrender1:i386
 #drive:amd64
 #transmission-gtk:amd64
 #pv:amd64
-#apt-transport-https:amd64
 #google-cloud-sdk:all
 #kubectl:amd64
-#wireguard-dkms:all
-#wireguard-tools:amd64
 #gcal:amd64
 #arachne-pnr:amd64
 #binfmt-support:amd64

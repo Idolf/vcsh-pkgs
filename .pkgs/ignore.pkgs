@@ -1,5 +1,6 @@
 aspell-en:all
 base-passwd:amd64
+devuan-keyring:all
 findutils:amd64
 grub-pc:amd64
 hostname:amd64
