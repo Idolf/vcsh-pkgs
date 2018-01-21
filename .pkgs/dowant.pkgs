@@ -47,6 +47,7 @@ curl:amd64
 dnsutils:amd64
 ethtool:amd64
 firmware-iwlwifi:all
+ifupdown:amd64
 iputils-ping:amd64
 iw:amd64
 netbase:all
@@ -101,6 +102,7 @@ cryptsetup:amd64
 dosfstools:amd64
 e2fsprogs:amd64
 gzip:amd64
+mdadm:amd64
 sharutils:amd64
 unrar:amd64
 unzip:amd64
@@ -116,7 +118,10 @@ vcsh:all
 apparmor:amd64 # required for docker
 diffutils:amd64
 docker-ce:amd64
+drive:amd64
 gdb:amd64
+google-cloud-sdk:all
+kubectl:amd64
 libsodium-dev:amd64
 libssl-dev:amd64
 ltrace:amd64
@@ -191,38 +196,5 @@ libsm6:i386
 libxext6:i386
 libxrender1:i386
 
-#tlp:all
-#sagemath-upstream-binary:amd64
-#python-setuptools:all
-#python-bs4:all
-#drive:amd64
-#transmission-gtk:amd64
-#pv:amd64
-#google-cloud-sdk:all
-#kubectl:amd64
-#gcal:amd64
-#arachne-pnr:amd64
-#binfmt-support:amd64
-#cmake:amd64
-#colordiff:all
-#debootstrap:all
-#default-jre:amd64
-#dropbear-bin:amd64
-#fsharp:all
-#higan:amd64
-#jq:amd64
-#kpartx:amd64
-#libncurses5-dev:amd64
-#libpq-dev:amd64
-#mednafen:amd64
-#moreutils:amd64
-#python-cbor:amd64
-#qemu-user-static:amd64
-#qemu:amd64
-#software-properties-common:all
-#u-boot-tools:amd64
-#uuid-runtime:amd64
-#visualboyadvance-gtk:amd64
-#wine-stable:all
 
 # Automatically added
