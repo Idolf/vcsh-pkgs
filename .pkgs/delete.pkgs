@@ -4,8 +4,11 @@ dbus:amd64
 dbus:i386
 debconf-i18n:all
 discover:amd64
+fonts-dejavu-core:all
+fonts-freefont:all
 installation-report:all
 logrotate:amd64
 netcat-traditional:amd64
 pinentry-curses:amd64
 python-dbus:amd64
+ttf-bitstream-vera:all

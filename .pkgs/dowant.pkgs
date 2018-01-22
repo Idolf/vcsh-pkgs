@@ -30,7 +30,6 @@ libxcursor1:i386 # a lot of games
 pass:all
 pinentry-gtk2:amd64
 suckless-tools:amd64
-unifont:all
 xauth:amd64
 xcompmgr:amd64
 xdm:amd64
@@ -40,6 +39,13 @@ xserver-xorg-input-all:amd64
 xserver-xorg-video-fbdev:amd64
 xserver-xorg-video-intel:amd64
 xserver-xorg-video-vesa:amd64
+
+# fonts
+fonts-noto:all
+fonts-noto-color-emoji:all
+fonts-noto-mono:all
+fonts-symbola:all
+unifont:all
 
 # network
 bridge-utils:amd64
@@ -176,18 +182,6 @@ libxinerama-dev:amd64
 libxrandr-dev:amd64
 xdotool:amd64
 xosd-bin:amd64
-
-# latex
-latexmk:all
-lmodern:all
-mathpartir:all
-texlive-fonts-extra:all
-texlive-generic-recommended:all
-texlive-lang-european:all
-texlive-lang-greek:all
-texlive-latex-extra:all
-#texlive-math-extra:all
-tipa:all
 
 # IDA pro requirements
 libfontconfig1:i386
