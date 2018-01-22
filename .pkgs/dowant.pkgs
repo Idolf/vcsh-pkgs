@@ -118,7 +118,7 @@ vcsh:all
 apparmor:amd64 # required for docker
 diffutils:amd64
 docker-ce:amd64
-drive:amd64
+#drive:amd64
 gdb:amd64
 google-cloud-sdk:all
 kubectl:amd64
