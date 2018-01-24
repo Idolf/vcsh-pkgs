@@ -160,6 +160,7 @@ python-gmpy:amd64
 python-numpy:amd64
 python-pil:amd64
 python-pip:all
+python-setuptools:all
 
 # CTF tools
 android-tools-adb:all
@@ -189,6 +190,5 @@ libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
-
 
 # Automatically added
