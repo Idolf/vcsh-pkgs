@@ -3,14 +3,13 @@ acpi:amd64
 acpi-support:all
 apt:amd64
 apt-file:all
-apt-transport-https:amd64
 apt-utils:amd64
 autojump:all
 bash-completion:all
 dirmngr:amd64 # needed for gnupg
 file:amd64
 fuse:amd64
-gnupg:amd64
+gnupg:all
 grep:amd64
 intel-microcode:amd64
 less:amd64
@@ -24,7 +23,6 @@ sudo:amd64
 
 # graphical base stuff
 alsa-utils:amd64
-autocutsel:amd64
 libgl1-mesa-dri:amd64
 libgl1-mesa-dri:i386
 libglu1-mesa:amd64 # a lot of games
@@ -35,7 +33,6 @@ pinentry-gtk2:amd64
 suckless-tools:amd64
 xauth:amd64
 xcompmgr:amd64
-xdm:amd64
 xsel:amd64
 xserver-xorg:amd64
 xserver-xorg-input-all:amd64
@@ -53,10 +50,8 @@ unifont:all
 # network
 bridge-utils:amd64
 curl:amd64
-dnsutils:amd64
 ethtool:amd64
 firmware-iwlwifi:all
-ifupdown:amd64
 iputils-ping:amd64
 iw:amd64
 netbase:all
@@ -78,7 +73,6 @@ wpasupplicant:amd64
 # editors
 aspell-da:all
 aspell-en:all
-emacs-goodies-el:all
 emacs:all
 vim-gtk:amd64
 
@@ -108,11 +102,10 @@ transmission-gtk:amd64
 
 # filesystems / package formats
 bzip2:amd64
-cryptsetup:amd64
+cryptsetup-initramfs:all
 dosfstools:amd64
 e2fsprogs:amd64
 gzip:amd64
-mdadm:amd64
 sharutils:amd64
 unrar:amd64
 unzip:amd64
@@ -125,7 +118,6 @@ subversion:amd64
 vcsh:all
 
 # development
-apparmor:amd64 # required for docker
 certbot:all
 diffutils:amd64
 docker-ce:amd64
@@ -207,6 +199,18 @@ u-boot-tools:amd64
 
 # Games
 steam-launcher:all
-visualboyadvance-gtk:amd64
 
 # Automatically added
+cmake:amd64
+ninja-build:amd64
+tor:amd64
+pv:amd64
+ccache:amd64
+libpq-dev:amd64
+inkscape:amd64
+gcc-arm-none-eabi:amd64
+xinit:amd64
+ifupdown:amd64
+dfu-util:amd64
+kicad:amd64
+kicad-libraries:all
