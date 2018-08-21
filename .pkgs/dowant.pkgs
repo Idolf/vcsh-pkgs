@@ -2,6 +2,7 @@
 acpi:amd64
 acpi-support:all
 apt:amd64
+apt-transport-https:amd64
 apt-file:all
 apt-utils:amd64
 autojump:all
@@ -9,7 +10,7 @@ bash-completion:all
 dirmngr:amd64 # needed for gnupg
 file:amd64
 fuse:amd64
-gnupg:all
+gnupg:amd64
 grep:amd64
 intel-microcode:amd64
 less:amd64
@@ -87,7 +88,6 @@ zathura:amd64
 feh:amd64
 graphviz:amd64
 imagemagick:amd64
-keybase:amd64
 libpangoxft-1.0-0:amd64 # for rofi
 libstartup-notification0:amd64 # for rofi
 libu2f-host0:amd64 # for yubikey
@@ -102,7 +102,7 @@ transmission-gtk:amd64
 
 # filesystems / package formats
 bzip2:amd64
-cryptsetup-initramfs:all
+cryptsetup:amd64
 dosfstools:amd64
 e2fsprogs:amd64
 gzip:amd64
@@ -121,12 +121,9 @@ vcsh:all
 certbot:all
 diffutils:amd64
 docker-ce:amd64
-drive:amd64
 gcc-doc:amd64
 gdb:amd64
-google-cloud-sdk:all
 hledger:amd64
-kubectl:amd64
 libpq5:amd64
 libsodium-dev:amd64
 libssl-dev:amd64
@@ -197,9 +194,6 @@ debootstrap:all
 qemu-user-static:amd64
 u-boot-tools:amd64
 
-# Games
-steam-launcher:all
-
 # Automatically added
 cmake:amd64
 ninja-build:amd64
@@ -212,5 +206,6 @@ gcc-arm-none-eabi:amd64
 xinit:amd64
 ifupdown:amd64
 dfu-util:amd64
-kicad:amd64
-kicad-libraries:all
+#kicad:amd64
+#kicad-libraries:all
+sakura:amd64
