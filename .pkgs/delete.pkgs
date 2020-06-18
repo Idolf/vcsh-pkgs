@@ -11,4 +11,3 @@ logrotate:amd64
 netcat-traditional:amd64
 pinentry-curses:amd64
 python-dbus:amd64
-ttf-bitstream-vera:all

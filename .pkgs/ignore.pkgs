@@ -13,6 +13,15 @@ man-db:amd64
 ncurses-base:all
 ncurses-bin:amd64
 net-tools:amd64
+steam-launcher:all
 sysvinit-utils:amd64
 xmacro:amd64
-steam-launcher:all
+
+# There is some weird interaction between Provides and Requires where one of
+# them has a version number and the other does not. check-pkgs does not seem to
+# think these are needed, but apt does
+x11proto-core-dev:all
+x11proto-randr-dev:all
+x11proto-xext-dev:all
+x11proto-xinerama-dev:all
+

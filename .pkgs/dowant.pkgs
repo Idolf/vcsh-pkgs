@@ -2,15 +2,17 @@
 acpi:amd64
 acpi-support:all
 apt:amd64
-apt-transport-https:amd64
+apt-transport-https:all
 apt-file:all
 apt-utils:amd64
 autojump:all
+bash:amd64
 bash-completion:all
+dash:amd64
 dirmngr:amd64 # needed for gnupg
 file:amd64
 fuse:amd64
-gnupg:amd64
+gnupg:all
 grep:amd64
 intel-microcode:amd64
 less:amd64
@@ -45,8 +47,6 @@ xserver-xorg-video-vesa:amd64
 fonts-noto:all
 fonts-noto-color-emoji:all
 fonts-noto-mono:all
-fonts-symbola:all
-unifont:all
 
 # network
 bridge-utils:amd64
@@ -102,7 +102,8 @@ transmission-gtk:amd64
 
 # filesystems / package formats
 bzip2:amd64
-cryptsetup:amd64
+cryptsetup-initramfs:all
+cryptsetup:all
 dosfstools:amd64
 e2fsprogs:amd64
 gzip:amd64
@@ -183,7 +184,6 @@ xosd-bin:amd64
 
 # IDA pro requirements
 libfontconfig1:i386
-libglib2.0-0:i386
 libsm6:i386
 libxext6:i386
 libxrender1:i386
@@ -206,6 +206,62 @@ gcc-arm-none-eabi:amd64
 xinit:amd64
 ifupdown:amd64
 dfu-util:amd64
-#kicad:amd64
-#kicad-libraries:all
+kicad:amd64
+kicad-libraries:all
 sakura:amd64
+kicad-packages3d:all
+protobuf-compiler:amd64
+libprotobuf-dev:amd64
+libgl1-mesa-glx:i386
+ncat:amd64
+fonts-symbola:all
+code:amd64
+fonts-noto-cjk:all
+clang-format:amd64
+nodejs:amd64
+openjdk-8-jdk:amd64
+firefox:amd64
+libva-x11-1:i386
+libpulse0:i386
+libvdpau1:i386
+libopenal1:i386
+steam:i386
+texlive:all
+texlive-latex-extra:all
+chromium-sandbox:amd64
+arachne-pnr:amd64
+gtkwave:amd64
+clang:amd64
+iverilog:amd64
+fpga-icestorm-chipdb:all
+zstd:amd64
+zip:amd64
+python3-yaml:amd64
+openjdk-12-jdk:amd64
+libtinfo5:amd64 # for clang-format in vscode
+gnuplot:all
+jmtpfs:amd64
+libpcap-dev:amd64
+libtool:all
+ntfs-3g:amd64
+fonts-firacode:all
+python3-pip:all
+npm:all
+python-socks:all
+python3-dev:amd64
+libmagic-dev:amd64
+python3-matplotlib:amd64
+p7zip-full:amd64
+python3-tk:amd64
+zoom:amd64
+steamcmd:i386
+qcachegrind:amd64
+jq:amd64
+thermald:amd64
+tlp:all
+acpi-call-dkms:all
+tp-smapi-dkms:all
+mumble:amd64
+discord:amd64
+libcgal-dev:amd64
+libeigen3-dev:all
