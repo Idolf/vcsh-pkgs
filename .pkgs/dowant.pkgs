@@ -265,3 +265,5 @@ mumble:amd64
 discord:amd64
 libcgal-dev:amd64
 libeigen3-dev:all
+keybase:amd64
+signal-desktop:amd64
